@@ -2,6 +2,8 @@ FROM node:20 AS build
 
 WORKDIR /app
 
+RUN npm install
+
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install
