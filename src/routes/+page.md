@@ -1,17 +1,34 @@
 ---
 title: Welcome to Sveltepress
-heroImage: /sveltepress@3x.png
-tagline: A simple, easy to use content centered site build tool with the full power of Sveltekit.
+heroImage: /Luis.JPG
 actions:
   - label: View on github
     type: primary
-    to: https://github.com/Blackman99/sveltepress
+    to: https://github.com/z0r0k/glossapp_doku
     external: true
 features:
-  - title: Markdown centered
-    description: To help you can start writing with minimal configuration
-  - title: Build with Sveltekit
-    description: Preserve the full power of Sveltekit. So that you can do more than SSG
-  - title: Svelte in Markdown
-    description: Feel free to use svelte in markdown. Explore infinite possibilities.
+  - title: Wo wird die Glossapp gehostet?
+    description: ""
+    link: /docu/admin/host/
+  - title: Welche Dienste laufen auf dem Server?
+    description: ""
+    link: /docu/admin/dienste/
+  - title: Wozu werden die Dienste benötigt?
+    description: ""
+    link: /docu/admin/wozu_dienste/
+  - title: Wie greifen die Dienste ineinander?
+    description: ""
+    link: /docu/admin/synergie_dienste/
+  - title: Was sollte man wissen wenn man an der Glossapp weiter arbeiten möchte?
+    description: ""
+    link: /docu/orga/weiter_arbeiten/
+  - title: Was gibt es besonders wichtiges für den Ademin/Entwickler zu wissen?
+    description: ""
+    link: /docu/admin/aufbau
+  - title: Wer ist für was verantwortlich?
+    description: ""
+    link: /docu/orga/verantwortlich/
+  - title: Welche Frameworks/Technologien kommen zum Einsatz?
+    description: ""
+    link: /docu/entwicklung/framework
 ---
