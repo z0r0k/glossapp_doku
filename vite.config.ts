@@ -7,17 +7,69 @@ const config = defineConfig({
     sveltepress({
       theme: defaultTheme({
         navbar: [
-          // Add your navbar configs here
         ],
         sidebar: {
-          // Add your sidebar configs here
+          '/docu/': [
+            {
+              title: 'Administrative punkte',
+              collapsible: true,
+              items: [
+                {
+                  title: 'Host',
+                  to: '/docu/admin/host/',
+                },
+                {
+                  title: 'Dienste',
+                  to: '/docu/admin/dienste/',
+                },
+                {
+                  title: 'Wozu Dienste benötigt',
+                  to: '/docu/admin/wozu_dienste/',
+                },
+                {
+                  title: 'Synergie der Dienste',
+                  to: '/docu/admin/synergie_dienste/',
+                },
+                {
+                  title: 'Tools von Glossapp',
+                  to: '/docu/admin/aufbau/',
+                },
+              ],
+
+            },
+            {
+              title: 'Organisatorisches',
+              collapsible: true,
+              items: [
+                {
+                  title: 'Weiter arbeiten',
+                  to: '/docu/orga/weiter_arbeiten/',
+                },
+                {
+                  title: 'Verantwortungen',
+                  to: '/docu/orga/verantwortlich/',
+                },
+              ]
+            },
+            {
+              title: 'Entwicklung',
+              collapsible: true,
+              items: [
+                {
+                  title: 'Frameworks im Einsatz',
+                  to: '/docu/entwicklung/framework/',
+                },
+              ]
+            }
+
+          ],
         },
         github: 'https://github.com/Blackman99/sveltepress',
         logo: '/sveltepress.svg',
       }),
       siteConfig: {
-        title: 'Sveltepress',
-        description: 'A content centered site build tool',
+        title: 'Glossapp',
+        description: 'Dokumentation der Glossapp',
       },
     }),
   ],
