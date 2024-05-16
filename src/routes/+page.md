@@ -1,6 +1,6 @@
 ---
 title: Welcome to Sveltepress
-heroImage: /Luis.JPG
+heroImage: /bsa.jpg
 actions:
   - label: View on github
     type: primary
