@@ -16,6 +16,7 @@ npm-debug.log*
 tmp/
 typings/
 /.gitkeep
+/.vscode
 /pnpm-lock.yaml
 /yarn.lock
 /package-lock.json
