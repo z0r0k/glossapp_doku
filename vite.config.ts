@@ -64,7 +64,7 @@ const config = defineConfig({
 
           ],
         },
-        github: 'https://github.com/Blackman99/sveltepress',
+        github: 'https://github.com/z0r0k/glossapp_doku',
         logo: '/sveltepress.svg',
       }),
       siteConfig: {
