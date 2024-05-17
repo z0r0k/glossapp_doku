@@ -1,7 +1,7 @@
-version: "1.0"
+version: "3.3"
 services:
   web:
-    build: .
+    image: test1
     ports:
       - 5000:80
     volumes:
