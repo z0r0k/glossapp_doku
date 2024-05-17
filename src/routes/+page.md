@@ -10,7 +10,7 @@ features:
   - title: Wo wird die Glossapp gehostet?
     description: ""
     link: /docu/admin/host/
-  - title: Welche Dienste laufen auf dem Server?
+  - title: Welche Dienste laufen auf dem Server.......?
     description: ""
     link: /docu/admin/dienste/
   - title: Wozu werden die Dienste benötigt?
