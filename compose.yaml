@@ -1,12 +1,8 @@
 version: "3.3"
 services:
   web:
-    image: test1
+    build: .
     ports:
       - 80:80
-    volumes:
-      - sveltepressgloss-db:/usr/share/nginx/html
-
-volumes:
-   sveltepressgloss-db:
-    external: true
+    volumes: 
+      - .:/app 
