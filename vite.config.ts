@@ -73,6 +73,12 @@ const config = defineConfig({
       },
     }),
   ],
+  server: {
+    host: '0.0.0.0',
+    watch: {
+      usePolling: true,
+    },
+  },
 })
 
 export default config
