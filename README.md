@@ -1,4 +1,4 @@
-#Die Glossapp dokumentation
+# Die Glossapp dokumentation
 In diesem Projekt werden alle wichtigen Informationen zur Glossapp dokumentiert.
 
 Hier sind die Schritte um das Projekt lokal laufen zu lassen:
