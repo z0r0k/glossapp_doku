@@ -1,2 +1,2 @@
-### Was gibt es besonders wichtiges für den Ademin/Entwickler zu wissen?
+### Was gibt es besonders wichtiges für den Admin/Entwickler zu wissen?
 Die Glossapp ist in Svelte geschrieben und wird auf einem virtuellen Server gehostet, der von Strato betrieben wird. Auf diesem Server läuft Docker, das zur Bereitstellung des Volumens verwendet wird.

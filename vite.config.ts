@@ -31,7 +31,7 @@ const config = defineConfig({
                   to: '/docu/admin/synergie_dienste/',
                 },
                 {
-                  title: 'Tools von Glossapp',
+                  title: 'Tools und Frameworks',
                   to: '/docu/admin/aufbau/',
                 },
               ],
