@@ -2,7 +2,7 @@
 title: Welcome to Sveltepress
 heroImage: /bsa.jpg
 actions:
-  - label: View on github
+  - label: V github
     type: primary
     to: https://github.com/z0r0k/glossapp_doku
     external: true
